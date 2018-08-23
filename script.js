@@ -242,4 +242,17 @@ console.log(map2);
 //   return num * 2;
 // });
 
+const msg = [
+  "Maayong hapon/gabie ma'am!",
+  "Sorry wala koy tawag-tawag",
+  "Nagtuon lng kog maayo para makatrabaho",
+  "Pasesnya na ha!",
+  "Ako na pud mobawi!",
+  "Ayaw na kalagot ha!",
+  "Bisag wala ko, palihug timan-i ang tumong :)"
+];
+
+const promptMsg = msg.map(message => {
+  alert(message);
+});
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
