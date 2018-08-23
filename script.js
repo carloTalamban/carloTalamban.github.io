@@ -235,11 +235,11 @@ console.log(map2);
 
 // (1), what is the value of i?
 // (2), Make this map function pure:
-const arrayNum = [1, 2, 4, 5, 8, 9];
-const newArray = arrayNum.map((num, i) => {
-  console.log(num, i);
-  alert(num);
-  return num * 2;
-});
+// const arrayNum = [1, 2, 4, 5, 8, 9];
+// const newArray = arrayNum.map((num, i) => {
+//   console.log(num, i);
+//   alert(num);
+//   return num * 2;
+// });
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
